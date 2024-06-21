@@ -70,25 +70,27 @@ Set wireshark to only show ssh traffic. Using powershell, sign into VM2 with ssh
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1523" alt="ANP6" src="https://github.com/Scott8790/azure-network-protocols/assets/172638339/666c4d13-4dc9-4c6e-9160-09272f49f171">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Set wireshark to show dhcp traffic. renew the IP address to show some dhcp traffic with ipconfig /renew command in powershell
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1575" alt="ANP7" src="https://github.com/Scott8790/azure-network-protocols/assets/172638339/5e50bb6e-a81a-4a47-901e-0cae4312a299">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Set wireshark to show dns traffic. run a nslookup command in powershell. it will go through the entire internet and come back with IP addresses that match the domain name you searched
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1087" alt="ANP8" src="https://github.com/Scott8790/azure-network-protocols/assets/172638339/01d171e4-886d-4b2a-aa48-06695021c126">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+set wireshark to show rdp traffic. another way to type that is tcp.port == 3389. You will notice it is constantly spamming traffic becuase it is in use constantly whenever anyone is using VM1 via remote desktop
 </p>
 <br />
